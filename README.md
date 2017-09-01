@@ -30,7 +30,5 @@ I think you should use an
 >jjkds
 
     
-```def foo():
-    if not bar:
-        return True
+```gfhfghgfhjgfjhgfje
 ```
