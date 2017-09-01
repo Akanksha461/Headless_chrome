@@ -25,6 +25,6 @@ I think you should use an
       }
     }
     
-def foo():
-    if not bar:
-        return True
+    def foo():
+        if not bar:
+            return True
