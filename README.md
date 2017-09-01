@@ -18,3 +18,9 @@ as we said
 I think you should use an
 
 `kuh` element here instead.
+
+    function fancyAlert(arg) {
+      if(arg) {
+        $.facebox({div:'#foo'})
+      }
+    }
