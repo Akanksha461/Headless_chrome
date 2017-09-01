@@ -37,5 +37,5 @@ I think you should use an
 - [x] list is list
 - [x] lets check it works or not
 
-Content from cell 1 | Content from cell 2
-Content in the first column | Content in the second column
+Content from cell 1 | Content from cell 2--
+Content in the first column | Content in the second column--
