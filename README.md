@@ -17,4 +17,4 @@ as we said
 
 I think you should use an
 
-`<addr>` element here instead.
+`kuh` element here instead.
