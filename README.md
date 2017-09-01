@@ -17,4 +17,4 @@ as we said
 
 I think you should use an
 
-`<tap>` element here instead.
+`<addr>` element here instead.
