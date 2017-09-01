@@ -24,3 +24,7 @@ I think you should use an
         $.facebox({div:'#foo'})
       }
     }
+    
+def foo():
+    if not bar:
+        return True
