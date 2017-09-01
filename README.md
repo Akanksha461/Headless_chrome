@@ -38,6 +38,6 @@ I think you should use an
 - [x] lets check it works or not
 
 row1 | row2
----- | ----
+-----| ----
 Content from cell 1 | Content from cell 2
 Content in the first column | Content in the second column
