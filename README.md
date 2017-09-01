@@ -34,3 +34,5 @@ I think you should use an
     if not bar:
         return True
 ```
+- [x] list is list
+- [x] lets check it works or not
