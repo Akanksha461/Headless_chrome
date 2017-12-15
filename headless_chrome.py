@@ -15,7 +15,7 @@ title1=driver.title
 print(title1)
 
 driver.find_element_by_partial_link_text("Sign in").click()
-driver.find_element_by_id("login").send_keys("ruhi461")
-driver.find_element_by_id("password").send_keys("akankshaverma46")
+driver.find_element_by_id("login").send_keys("id")
+driver.find_element_by_id("password").send_keys("password")
 driver.find_element_by_css_selector('input[type="submit"]').click()
 driver.find_element_by_link_text("Shots").click()
