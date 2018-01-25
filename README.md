@@ -23,7 +23,7 @@
  ## Setup
      
    Now we will make a complete setup for headless chrome, for that we have install all the prerequisties explained above.
-   I have used python for writing test script. Please click on this link [click here] (https://duo.com/blog/driving-headless-chrome-with-python)for step by step installation of headless chrome.
+   I have used python for writing test script. Please click on this link [click here](https://duo.com/blog/driving-headless-chrome-with-python)for step by step installation of headless chrome.
     
    
   
