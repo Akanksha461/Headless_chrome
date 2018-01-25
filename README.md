@@ -1,4 +1,10 @@
-## Post facebook status using headless chorome 
+# _Headless Chrome_
 
-  here is a python automated scrpit to post facebook status using chorome browser.
+  Starting with Chrome 57, we can run Chrome as a **headless browser**. It is a way to run the Chrome browser in a headless       environment without the full browser UI.
+  
+  ## _Pros_
+  
+  One of the benefits of using Headless Chrome is that your Script tests will be         executed in the same environment as users of your site. Headless Chrome gives you a real browser context without the memory     overhead of running a full version of Chrome.
+  
+  Chrome is faster and more stable than PhantomJS. And it doesn’t eat memory like crazy
   
