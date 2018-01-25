@@ -22,8 +22,34 @@
     
  ## Setup
      
-   Now we will make a complete setup for headless chrome, for that we have install all the prerequisties explained above.
-   I have used python for writing test script. Please click on this link [click here](https://duo.com/blog/driving-headless-chrome-with-python)for step by step installation of headless chrome.
+   Now we will make a complete setup for headless chrome, for that we have to install all the prerequisties explained above.
+   I have used _python_ for writing test script. Please click on this link [click here](https://duo.com/blog/driving-headless-chrome-with-python) for step by step instruction for installation of headless chrome.
+  
+  ## Example
+  
+  Below is the Python script for Facebook login using headless chrome .By executing this script user will first login facebbok after that it update his Facebook status.
+  
+  ```
+import os
+from selenium import webdriver
+from selenium.webdriver.common.keys import Keys
+from selenium.webdriver.chrome.options import Options
+import time
+chrome_options = Options()
+chrome_options.add_argument("headless")
+```
+ When we will open facebook's website then a alert message appears, we have to handle it.So i have used _chrome options_ to disable the notification. Below is code for the same.
+ 
+ ```
+ a = "path/of/your/chrome/driver"
+chrome_options.add_argument("--disable-notifications")
+driver = webdriver.Chrome(str(a),   chrome_options=chrome_options)
+driver.get("https://www.facebook.com/")
+driver.implicitly_wait (10)
+driver.find_element_by_id("email").send_keys("Facebookid")
+driver.find_element_by_id("pass").send_keys("password")
+title1=driver.title
+ ```
     
    
   
